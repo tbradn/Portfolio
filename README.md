@@ -5,6 +5,7 @@ The Corner Grocer requires a software solution to examine the textual data gener
 The structure of the program was well organized. The program is well documented. There is thorough error handling.
 
 ## Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
+I could focus on optimizing algorithms, minimizing unnecessary operations, and use suitable data structures for efficiency.
 
 ## Which pieces of the code did you find the most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?
 Reading data from a file and writing data to a file was the most challenging aspect for me because it was a fairly new concept. I utilized my CS210 class resources to ensure that every step when working with files was performed correctly. 
