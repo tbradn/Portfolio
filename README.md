@@ -17,7 +17,9 @@ Learning how to write well-structured code, error handling, and documentation.
 Applied the DRY principle to create more maintainable code. Applied the SRP principle to ensure readability for each class and function. The majority of the program logic exists in the GroceryTracker class, allowing for adaptability in adding or improving features without making changes to the main file. 
 
 
-The DriverPass project aimed to design a comprehensive system for a driver training company called DriverPass. The client, Liam, wanted a system capable of providing online driver training courses, practice tests, appointment scheduling for on-the-road training, user management, and remoted data access. One aspect I believe I did particularly well was considering the user's requirements and incorporating user roles and functionalities accordingly, I ensured that the system would meet the diverse needs of students, trainers, and administrators.
+The DriverPass project aimed to design a comprehensive system for a driver training company called DriverPass. The client, Liam, wanted a system capable of providing online driver training courses, practice tests, appointment scheduling for on-the-road training, user management, and remoted data access. 
+
+One aspect I believe I did particularly well was considering the user's requirements and incorporating user roles and functionalities accordingly, I ensured that the system would meet the diverse needs of students, trainers, and administrators.
 
 If I could revise one part of my work, I would focus on refining the system's scalability and performance consideraions. While I addressed scalability challanges in the limitations section, I could provide more detailed strategies for handling increased user demand and optimizing system performance, ensuring that the system remains efficient and responsive as it grows. 
 
