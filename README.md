@@ -33,3 +33,60 @@ When approaching software design, I employ a systematic approach that involves t
 
 
 In the projects for this course, the primary challenge revolved around developing an advising assistance software for the Computer Science department at ABCU. This required efficiently handling course data and providing functionalities lik loading course information, printing course lists, and displaying course details. To tackle this, I first analyzed the requirements and identified key functionalities needed by the academic advisors. Understanding the importance of data structures, I recommended using a hash table to store course objects due to its efficient lookup time. Throughout the activities and project, I encountered roadblocks such as understanding file formats, implementing the menu system, and handling user input validation. I overcame these obstacles by breaking down the problem into smaller tasks, researching relevant concepts, and testing incremental changes. This project expanded my approach to designing software by emphasizing modularity, scalability, and maintainability. I learned to design components that are decoupled and reusable, following software architecture principles such as separation of concerns. Furthermore, it evolved the way I write programs, emphasizing maintainability, readability, and adaptability. I became more mindful of using meaningful variable names, writing clear comments, and incorporating error handling mechanisms to improve the robustness and adaptability of the software. Overall, this project reinforced the importance of writing clean, well structured code that is easy to understand, maintain, and extend. 
+
+
+CS 230 Project Software Design Template
+
+The client, The Gaming Room, is a company specializing in creating games for various platforms.
+
+Software Requirements:
+The Gaming Room wanted to design a cross-platform game application that would run on Android, iOS, Windows, and web browsers. The game involves multiple players who can join a session and play together in real-time.
+What I Did Well in Developing the Documentation
+
+In developing the documentation, I excelled in the following areas:
+
+    Clarity and Organization: The documentation was clearly organized, making it easy to follow and understand. I provided a comprehensive outline that covered all necessary aspects, from requirements to design considerations.
+    Detail-Oriented: I included detailed descriptions of the software requirements, user stories, and use cases. This ensured that all potential scenarios were considered.
+    Diagrams and Visuals: I utilized diagrams, such as flowcharts and UML diagrams, to visually represent the system's architecture and workflow. This helped in better understanding the system's functionality.
+
+Helpful Aspects of Working Through a Design Document
+
+Working through a design document was particularly helpful in the following ways:
+
+    Structured Planning: It provided a structured approach to planning the software, ensuring that all aspects were considered before development began.
+    Requirement Clarity: It helped in clarifying the requirements and expectations from the client, reducing the risk of misunderstandings during development.
+    Foundation for Development: The design document served as a solid foundation for the development phase, providing a clear roadmap to follow.
+
+Part of the Work to Revise and Improvement
+
+If I could revise one part of my work on these documents, it would be the user interface (UI) design section. Initially, the UI design details were somewhat generic. To improve this:
+
+    User-Centric Design: I would include more user-centric design elements, such as user feedback loops and user testing sessions to refine the UI.
+    Prototyping: I would incorporate more detailed wireframes and interactive prototypes to give a better visualization of the final product.
+    Accessibility Considerations: I would add more details on accessibility features to ensure the game is usable by a wider audience.
+
+Interpreting and Implementing User's Needs
+
+I interpreted the user’s needs through detailed discussions with the client and analyzing the target audience for the game. Implementing these needs involved:
+
+    User Stories: Creating user stories to understand different user interactions with the system.
+    Feedback Integration: Regularly seeking feedback from the client and potential users to refine the design.
+    Prioritizing Features: Ensuring that the most important features for user satisfaction were prioritized in the development process.
+
+Considering the user’s needs is crucial because it ensures that the final product is user-friendly, meets the users' expectations, and provides a positive user experience. This can lead to higher user satisfaction and better adoption of the software.
+Approach to Designing Software
+
+In designing software, I followed these approaches:
+
+    Requirement Analysis: Thoroughly analyzing and understanding the requirements.
+    Modular Design: Breaking down the system into smaller, manageable modules.
+    Agile Methodology: Using an agile approach to allow for iterative development and continuous improvement.
+    Prototyping: Creating prototypes to visualize the design and get early feedback.
+
+Future Techniques and Strategies:
+
+    User-Centered Design (UCD): Focusing more on UCD principles to ensure that the design is tailored to user needs and preferences.
+    Design Thinking: Applying design thinking strategies to foster creativity and innovation in problem-solving.
+    Automated Testing: Implementing automated testing early in the development cycle to ensure code quality and reduce the time spent on manual testing.
+
+These techniques and strategies would help in creating a more robust, user-friendly, and efficient software application.
