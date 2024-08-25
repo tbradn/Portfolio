@@ -103,3 +103,11 @@ Future Techniques and Strategies:
 
 These techniques and strategies would help in creating a more robust, user-friendly, and efficient software application.
 
+How can I ensure that my code, program, or software is functional and secure?
+Testing with unit tests, using Test-Driven development, and leveraging CI/CD pipelines to automate testing. Conduct regular peer reviews to catch issues early. Use tools for static code analysis and security testing, and follow secure coding practices like input validation and encryption.
+
+How do I interpret user needs and incorporate them into a program?
+Engage with users through interviews and surveys, and translate their needs into user stories. Create wireframes or prototypes, gather feedback, and iterate. Conduct usability and beta testing to refine the product based on real user interactions.
+
+How do I approach designing software?
+Clearly define the problem and user needs. Use architectural patterns, design patterns, and modular design principles to structure the system. Create UML diagrams and technical documentation to outline the design. Apply agile methodologies for iterative design, development, and refinement.
