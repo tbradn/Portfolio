@@ -107,6 +107,46 @@ How can I ensure that my code, program, or software is functional and secure?
 Testing with unit tests, using Test-Driven development, and leveraging CI/CD pipelines to automate testing. Conduct regular peer reviews to catch issues early. Use tools for static code analysis and security testing, and follow secure coding practices like input validation and encryption.
 
 How do I interpret user needs and incorporate them into a program?
+
+### **Portfolio Submission Reflection**
+
+#### **Summary of Artemis Financial and Its Requirements**
+Artemis Financial is a consulting company that develops individualized financial plans, including savings, retirement, investments, and insurance. The company required secure communication and data protection mechanisms for its web application to safeguard client data and ensure secure data transmission. Specifically, Artemis Financial needed a vulnerability assessment and code refactoring to integrate secure communication protocols (HTTPS) and implement a file verification step via a checksum for data integrity.
+
+---
+
+#### **What I Did Well**
+I successfully identified and addressed key software security vulnerabilities, including the absence of secure communication and cryptographic data integrity verification. By enabling HTTPS and implementing a SHA-256 checksum verification endpoint, I added critical layers of security to protect client data. Coding securely is essential because it mitigates risks such as data breaches and unauthorized access, which could harm the company’s reputation and lead to financial losses. Secure software not only protects client information but also builds trust and enhances the company’s overall credibility and well-being.
+
+---
+
+#### **Challenges and Insights During the Vulnerability Assessment**
+The most challenging part of the assessment was configuring the keystore and ensuring that HTTPS was properly enabled. Understanding the intricacies of SSL/TLS and working with self-signed certificates was a valuable learning experience. On the other hand, the checksum implementation was straightforward and rewarding, as it highlighted the importance of cryptographic algorithms in ensuring data integrity.
+
+---
+
+#### **Increasing Layers of Security**
+I added layers of security by enabling SSL/TLS encryption for secure communication and implementing a SHA-256 checksum endpoint for data integrity. These changes ensure that sensitive information is protected during transmission and cannot be altered without detection. In the future, I would use tools like OWASP ZAP or SonarQube to identify vulnerabilities and determine appropriate mitigation techniques.
+
+---
+
+#### **Ensuring Functionality and Security**
+After refactoring the code, I ensured the application remained functional and secure by thoroughly testing the `/checksum` endpoint and verifying HTTPS functionality in a browser. To prevent introducing new vulnerabilities, I used logging and testing tools to validate the correctness of my changes. Static code analysis tools, such as OWASP Dependency-Check, could be useful for detecting any vulnerabilities introduced by third-party dependencies.
+
+---
+
+#### **Resources and Tools**
+The most helpful resources included the Java `keytool` utility for managing the keystore, Spring Boot’s built-in SSL/TLS support, and the SHA-256 hashing algorithm. Additionally, secure coding practices, such as modularized code and proper exception handling, proved beneficial in maintaining security and readability. These tools and practices will be invaluable in future assignments and tasks involving secure application development.
+
+---
+
+#### **Showcasing Skills to Employers**
+For future employers, this assignment demonstrates my ability to conduct a vulnerability assessment, implement secure coding practices, and follow industry standards to enhance software security. Specifically, I can showcase:
+- My implementation of HTTPS and SSL/TLS encryption.
+- The creation of a secure API endpoint for SHA-256 checksum verification.
+- My ability to refactor and test code while maintaining functionality and security.
+
+This work highlights my problem-solving skills, attention to detail, and commitment to delivering secure and reliable software solutions.
 Engage with users through interviews and surveys, and translate their needs into user stories. Create wireframes or prototypes, gather feedback, and iterate. Conduct usability and beta testing to refine the product based on real user interactions.
 
 How do I approach designing software?
