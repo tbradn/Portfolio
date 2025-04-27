@@ -151,3 +151,31 @@ Engage with users through interviews and surveys, and translate their needs into
 
 How do I approach designing software?
 Clearly define the problem and user needs. Use architectural patterns, design patterns, and modular design principles to structure the system. Create UML diagrams and technical documentation to outline the design. Apply agile methodologies for iterative design, development, and refinement.
+
+
+
+How do you write programs that are maintainable, readable, and adaptable?
+Writing maintainable, readable, and adaptable code requires following several key principles that I applied in my projects. For the CRUD Python module in Project One, I implemented modular design by separating database operations into distinct functions (Create, Read, Update, Delete), which made the code easier to understand and modify. I used consistent naming conventions and comprehensive comments to improve readability. This modular approach proved advantageous when connecting dashboard widgets to the database in Project Two, as I could reuse the CRUD operations without modifying the original code.
+The main advantages of working with a reusable CRUD module included:
+
+Reduced duplication of code across different parts of the application
+Simplified debugging by isolating database operations
+Easier modification of database interactions without affecting the dashboard functionality
+Consistent interface for database operations throughout the application
+
+In the future, this CRUD module could be adapted for various applications that require database interactions, such as inventory management systems, user authentication services, or content management platforms. The module's design allows for extending functionality without disrupting existing code.
+How do you approach a problem as a computer scientist?
+As a computer scientist, I approach problems through systematic analysis and iterative development. With the Grazioso Salvare project, I began by clearly understanding the client's requirements and the specific goals of their dashboard and database needs. I broke down the complex problem into smaller, manageable components - first understanding the data structure, then designing the database schema, implementing the CRUD operations, and finally developing the dashboard interface.
+Unlike previous assignments, this project required a deeper consideration of real-world client needs and user experience. I focused on creating not just functional code, but a solution that addressed specific business requirements. This meant considering factors like query efficiency, intuitive dashboard design, and meaningful data visualization.
+In future projects, I would continue this approach by:
+
+Starting with extensive requirement gathering and documentation
+Creating visual mockups or prototypes before implementation
+Implementing database structures with scalability in mind
+Testing with real-world data scenarios
+Getting regular feedback from stakeholders throughout development
+
+What do computer scientists do, and why does it matter?
+Computer scientists solve complex problems by designing and implementing technical solutions that address real-world needs. Our work involves translating business requirements into functional systems, optimizing processes, and making data useful and accessible.
+For a company like Grazioso Salvare, my work on this project matters because it transforms raw data into actionable insights. The database and dashboard solution allows them to efficiently track and manage animal records, quickly identify potential rescue animals based on specific criteria, and visualize their data geographically. This improves their operational efficiency by reducing the time spent manually searching through records and helps them make more informed decisions about which animals to select for rescue training.
+Ultimately, computer scientists bridge the gap between technical possibilities and practical business needs. By creating systems that automate processes and provide valuable insights, we enable organizations to focus on their core mission rather than getting bogged down in data management challenges.
